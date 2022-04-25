@@ -1,0 +1,212 @@
+body {
+    
+    margin: 0 auto;
+    min-height: 100vh;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+
+}
+
+
+nav {
+    
+    background-color: #ffffff;
+    position: relative;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.nav__title {
+    color: #202020;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
+.nav__item--selected {
+    
+    color: #c95817;
+    font-weight: bold;
+
+}
+
+.grid {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.grid__card {
+    display: inline-block;
+    height: 30rem;
+    width: 20rem;
+    margin: 1rem 1rem 6rem 0;
+    border: 1px solid rgb(226, 222, 222);
+
+}
+
+.grid__card img {
+
+    min-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.grid__title {
+    
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.grid__content {
+    
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+  
+.grid__content--hover {
+    
+    cursor: pointer;
+
+}
+
+.newsletter {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 5rem;
+
+}
+
+.newsletter__title--bold {
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem 0 0 0;
+
+}
+  
+.newsletter__title--headline {
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0 0 1rem 0;
+
+}
+
+.newsletter form {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+  
+.newsletter form label {
+    
+    font-size: 1.1rem;
+    margin: 0 0 0;
+
+}
+  
+.newsletter form #subscription {
+    
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+.contact {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 4rem 5rem;
+    text-align: center;
+}
+  
+.contact__title {
+    font-size: 1rem;
+    margin: 0 0 0.7rem 0;
+    font-weight: bold;
+
+}
+  
+.contact__content {
+    
+    margin: 0;
+}
+  
+.contact__methods {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+  
+.contact__content {
+    
+    margin: 0 0.5rem;
+    font-weight: normal;
+}
+  
+.contact__content #telephone {
+    
+    color: #37da80;
+}
+
+footer {
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3rem 1rem;
+    font-size: 0.75rem;
+}
+  
+footer #footerBtn {
+    
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+  
+.footer__column {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 0.2rem;
+}
